@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* start header-bg section */
+
+section{
+    height: 500px;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 50px;
+    padding-left: 3%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+}
+.orange-highlight{
+    color: orange;
+}
+p{
+    text-align: justify;
+    color: gray;
+    font-size: 13px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(40deg, rgb(61, 200, 11), rgb(245, 165, 165), rgb(226, 230, 16));
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700; 
+}
+#text-center{
+    padding-top: 90px;
+}
+/* ended header-bg section */
+.biography-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------
+-------------------------------------- */
+
+
+#my-work{
+    text-align: center;
+    font-size: 40px;
+}
+.trd-width {
+    width: 30%;
+    float: left;
+    margin-left: 1.8% ;
+    padding-left: 1%;
+}
+.trd-width img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:  6px 6px 39px black;
+}
+.trd-width img:hover{
+    box-shadow:  6px 6px 39px rgb(40, 5, 96);
+}
+#Work-Area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* =====================================
+===================================== */
+footer{
+    width: 100%;
+    height: 60vh;
+    display:grid;
+    justify-content: center;
+}
+footer h1, h5, h6,div ,p{
+    text-align: center;
+}
+.child{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(251, 76, 76);
+    border-radius: 6px;
+    padding: 15px;
+}
+.child p{
+    color: white;
+    font-size: 12px;
+}
+.link-fo{
+    text-decoration: none;
+    color: white;
+    margin-top: 0px;
+    font-size: 25px;
+}
+h6{
+    color: gray;
+    margin-bottom: 2px;
+}
+footer p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
